@@ -23,12 +23,35 @@ body {
   background-color: #121214;
 }
 
-/*mostra a seleção dos elementos de main em vermelho*/
+body * {
+  font-family: 'Inter', sans-serif;
+  line-height: 160%;
+}
+
+/*
+
 main *{
   border: 1px solid red;
-}
+}*/
+
 main {
   max-width: 580px;
   width: 90%;
   margin: auto;
+}
+
+section {
+  color: white;
+}
+
+section h2 {
+
+  letter-spacing: -0.47px;
+
+}
+
+section p {
+  
+  letter-spacing: -0.18px;
+  color: #A1A1AA;
 }
