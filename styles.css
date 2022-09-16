@@ -1,3 +1,16 @@
+/*reseta css padrão do navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  /*muda a maneira que conta o tamanho das caixas ignorando o padding e mantendo como padrão 580 px*/
+  box-sizing: border-box;
+}
+
+ul{
+  /*tira pontinhos da lista*/
+  list-style: none;
+}
+
 body {
   /*Pega imagem para colocar no fundo*/
   background-image: url(./assets/bg.jpg);
@@ -5,4 +18,17 @@ body {
   background-position: top center;
   /*Se adapta a qualquer tamanho de tela*/
   background-size: 100% auto;
+  /*Para não repetir imagem no fundo da tela*/
+  background-repeat: no-repeat;
+  background-color: #121214;
+}
+
+/*mostra a seleção dos elementos de main em vermelho*/
+main *{
+  border: 1px solid red;
+}
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
 }
