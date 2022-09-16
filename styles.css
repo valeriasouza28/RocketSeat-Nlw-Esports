@@ -1,0 +1,8 @@
+body {
+  /*Pega imagem para colocar no fundo*/
+  background-image: url(./assets/bg.jpg);
+  /*deixa imagem de fundo centaralizada*/
+  background-position: top center;
+  /*Se adapta a qualquer tamanho de tela*/
+  background-size: 100% auto;
+}
