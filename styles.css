@@ -55,3 +55,13 @@ section p {
   letter-spacing: -0.18px;
   color: #A1A1AA;
 }
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.games-list {
+  width: 90px;
+  border-radius: 8px;
+}
