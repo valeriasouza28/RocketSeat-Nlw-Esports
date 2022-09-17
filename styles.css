@@ -151,5 +151,13 @@ header div {
 /*animação dos cartões*/
 
 @keyframes fromBottom {
-  
+  from {
+    opacity:0;
+    transform: translateY(30px)
+  }
+/*posição finall da animação do imagem do header, onde 0 termina onde ele já está*/
+  to{
+    opacity: 1;
+    transform: translateY(0)
+  }
 }
