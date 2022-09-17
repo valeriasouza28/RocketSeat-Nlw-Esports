@@ -36,7 +36,7 @@ main *{
 
 header {
   padding-top: 32px;
-  text-align: center;
+  height: calc(120px + 32px);
 }
 
 header div {
@@ -129,7 +129,7 @@ section ul li:hover {
 /*animation*/
 
 header div {
-  animation: fromTop .3s;
+  animation: fromTop .7s;
 }
 
 /*define animação*/
