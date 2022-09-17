@@ -111,7 +111,7 @@ section ul li {
 }
 
 section ul li:hover {
-  transform: sacle(1.1)
+  transform: scale(1.1)
 }
 
 .games-list img {
