@@ -135,6 +135,10 @@ header div {
   
 }
 
+main section {
+  animation: fromBottom .7s;
+}
+
 /*define animação*/
 @keyframes fromTop {
   from {
