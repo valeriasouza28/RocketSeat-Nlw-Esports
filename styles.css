@@ -1,3 +1,13 @@
+:root {
+  --bg-size: 1020px;
+}
+
+@media (max-width: 375px) {
+  :root {
+    --bg-size: 320px;
+  }
+}
+
 /*reseta css padrão do navegador*/
 * {
   margin: 0;
